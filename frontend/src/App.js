@@ -7,7 +7,7 @@ function App() {
   const [people, setPeople] = useState([]);
 
   useEffect(()=>{
-    axios.get('/api').then(res => setPeople(res.data));
+    axios.get('/api02').then(res => setPeople(res.data));
 
   }, []);
 
